@@ -27,3 +27,9 @@ Required in /etc/hosts
 127.0.0.1 web1
 127.0.0.1 web2
 ```
+
+In a browser, try the following urls
+```
+http://web2/
+http://web2/
+```
