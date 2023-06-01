@@ -16,7 +16,7 @@ docker run --rm -p 80:80 \
 --name running_rev_proxy rev_prox
 ```
 
-Test agains two stand alone apps
+Test against two stand alone apps
 ```
 docker run --rm -p 81:80 --name web1 nginx
 docker run --rm -p 82:80 --name web2 nginx
