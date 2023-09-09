@@ -16,7 +16,7 @@ docker run --rm -p 80:80 \
 --name running_rev_proxy rev_prox
 ```
 
-Test agains two stand alone apps
+Test against two stand alone apps
 ```
 docker run --rm -p 81:80 --name web1 nginx
 docker run --rm -p 82:80 --name web2 nginx
@@ -26,4 +26,10 @@ Required in /etc/hosts
 ```
 127.0.0.1 web1
 127.0.0.1 web2
+```
+
+In a browser, try the following urls
+```
+http://web2/
+http://web2/
 ```
